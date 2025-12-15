@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://dramabox.sansekai.my.id",
+        target: "https://melolo-api-azure.vercel.app",
         changeOrigin: true,
         secure: false,
       },

@@ -30,4 +30,4 @@ The project structure follows the `belajar-vuejs-contact-management` project.
 
 ## API
 
-The app uses the API at `https://dramabox.sansekai.my.id/api`.
+The app uses the API at `https://melolo-api-azure.vercel.app/api`.

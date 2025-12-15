@@ -66,7 +66,9 @@ const goToStream = (drama) => {
       >
         <div class="card h-100 shadow-sm" @click="goToStream(drama)">
           <img
-            :src="drama.coverWap || 'https://via.placeholder.com/150'"
+            :src="
+              drama.coverWap || drama.thumb_url || 'https://placehold.co/150'
+            "
             class="card-img-top"
             :alt="drama.bookName"
             style="height: 300px; object-fit: cover"
